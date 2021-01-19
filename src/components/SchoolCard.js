@@ -20,6 +20,9 @@ function SchoolCard(props) {
              <li className="list-group-item">Num Black: {props.school.NUM_BLACK}</li>
             <li className="list-group-item">Num White: {props.school.NUM_WHITE}</li>
             <li className="list-group-item">Num Hispanic: {props.school.NUM_HISP}</li>
+            <li className="list-group-item">Num MIGRANT: {props.school.NUM_MIGRANT}</li>
+            <li className="list-group-item">Num HOMELESS: {props.school.NUM_HOMELESS}</li>
+            <li className="list-group-item">Num FOSTER: {props.school.NUM_FOSTER}</li>
           </ul>
           <span className="badge badge-header">School Data</span>
           <ul className="list-group">
